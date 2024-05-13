@@ -1,0 +1,43 @@
+{
+  "name": "@nice-avatar-svg/solid",
+  "version": "0.0.2",
+  "description": "Library to generate SVG avatar for Solid.js",
+  "type": "module",
+  "keywords": [
+    "avatar",
+    "svg",
+    "solid-js"
+  ],
+  "repository": {
+    "type": "git",
+    "directory": "solid",
+    "url": "git+https://github.com/madeindjs/nice-avatar-svg.git"
+  },
+  "author": {
+    "email": "alexandre@rsseau.fr",
+    "name": "Alexandre Rousseau",
+    "url": "https://rsseau.fr"
+  },
+  "homepage": "https://github.com/madeindjs/nice-avatar-svg",
+  "license": "MIT",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "prepublishOnly": "vite build",
+    "serve": "vite preview"
+  },
+  "exports": {
+    ".": "./dist/solid.js"
+  },
+  "devDependencies": {
+    "vite": "^5.0.11",
+    "vite-plugin-solid": "^2.10.2"
+  },
+  "peerDependencies": {
+    "solid-js": ">=1.8.0"
+  },
+  "dependencies": {
+    "@nice-avatar-svg/shared": "*"
+  }
+}

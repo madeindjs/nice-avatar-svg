@@ -1,0 +1,34 @@
+{
+  "name": "@nice-avatar-svg/element",
+  "version": "0.0.2",
+  "description": "Library to generate SVG avatar as Web Component",
+  "repository": {
+    "type": "git",
+    "directory": "element",
+    "url": "git+https://github.com/madeindjs/nice-avatar-svg.git"
+  },
+  "keywords": [
+    "avatar",
+    "svg",
+    "solid-js"
+  ],
+  "author": {
+    "email": "alexandre@rsseau.fr",
+    "name": "Alexandre Rousseau",
+    "url": "https://rsseau.fr"
+  },
+  "homepage": "https://github.com/madeindjs/nice-avatar-svg",
+  "license": "ISC",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@nice-avatar-svg/preact": "*",
+    "preact-custom-element": "^4.3.0"
+  },
+  "exports": {
+    ".": "./index.mjs"
+  }
+}
