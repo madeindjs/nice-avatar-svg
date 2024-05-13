@@ -1,2 +1,0 @@
-find a tool to publish all packages at once https://docs.npmjs.com/cli/v7/commands/npm-publish
-update package description & tags
