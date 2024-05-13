@@ -23,7 +23,7 @@ But above all, it provide many stacks:
 
 This monorepo expose plain JSX components in `shared` folder. It means that any frontend frameworks using JSX as template language can compile them.
 
-Check [how.md](./how.md) for more informations.
+Check [my blog post](https://rsseau.fr/en/blog/exporting-single-jsx-library-to-many-frameworks) for more informations.
 
 [react-nice-avatar]: https://github.com/dapi-labs/react-nice-avatar
 [web-components]: https://developer.mozilla.org/en-US/docs/Web/API/Web_components
