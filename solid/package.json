@@ -1,6 +1,6 @@
 {
   "name": "@nice-avatar-svg/solid",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Library to generate SVG avatar for Solid.js",
   "type": "module",
   "keywords": [
@@ -32,12 +32,10 @@
   },
   "devDependencies": {
     "vite": "^5.0.11",
-    "vite-plugin-solid": "^2.10.2"
+    "vite-plugin-solid": "^2.10.2",
+    "@nice-avatar-svg/shared": "*"
   },
   "peerDependencies": {
     "solid-js": ">=1.8.0"
-  },
-  "dependencies": {
-    "@nice-avatar-svg/shared": "*"
   }
 }

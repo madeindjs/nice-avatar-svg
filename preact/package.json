@@ -1,6 +1,6 @@
 {
   "name": "@nice-avatar-svg/preact",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Library to generate SVG avatar for Preact",
   "type": "module",
   "module": "./dist/preact.js",
@@ -30,13 +30,11 @@
     "serve": "vite preview"
   },
   "devDependencies": {
+    "@nice-avatar-svg/shared": "*",
     "@preact/preset-vite": "^2.8.2",
     "vite": "^5.0.11"
   },
   "peerDependencies": {
     "preact": ">=10.0.0"
-  },
-  "dependencies": {
-    "@nice-avatar-svg/shared": "*"
   }
 }
