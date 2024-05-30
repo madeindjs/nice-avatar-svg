@@ -15,7 +15,7 @@ export default function Body({ skinColor }) {
       />
       <mask
         id="mask0_53_114"
-        style="mask-type: alpha"
+        style={{ maskType: "alpha" }}
         maskUnits="userSpaceOnUse"
         x="30"
         y="212"
@@ -25,7 +25,7 @@ export default function Body({ skinColor }) {
         <path d="M154 329.5C139.6 309.5 128.333 260.834 127 241.5L58.5 212L30 329.5H154Z" fill={skinColor} />
       </mask>
       <g mask="url(#mask0_53_114)">
-        <g style="mix-blend-mode: multiply">
+        <g style={{ mixBlendMode: "multiply" }}>
           <ellipse cx="124" cy="210" rx="59" ry="54" fill="black" />
         </g>
       </g>

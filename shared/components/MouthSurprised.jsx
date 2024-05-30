@@ -7,7 +7,15 @@ export default function MouthSurprised() {
         stroke="black"
         stroke-width="3.59115"
       />
-      <mask id="mask0_48_80" style="mask-type: alpha" maskUnits="userSpaceOnUse" x="14" y="11" width="36" height="43">
+      <mask
+        id="mask0_48_80"
+        style={{ maskType: "alpha" }}
+        maskUnits="userSpaceOnUse"
+        x="14"
+        y="11"
+        width="36"
+        height="43"
+      >
         <ellipse
           cx="31.9417"
           cy="32.2072"

@@ -7,7 +7,15 @@ export default function MouthLaughing() {
         stroke="black"
         stroke-width="4"
       />
-      <mask id="mask0_48_87" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="4" y="12" width="65" height="37">
+      <mask
+        id="mask0_48_87"
+        style={{ maskType: "alpha" }}
+        maskUnits="userSpaceOnUse"
+        x="4"
+        y="12"
+        width="65"
+        height="37"
+      >
         <path
           d="M67.7931 12.1925C68.3091 16.363 67.9985 20.5943 66.8793 24.6448C65.76 28.6953 63.8539 32.4857 61.2697 35.7996C58.6856 39.1134 55.474 41.8858 51.8185 43.9585C48.1629 46.0312 44.1348 47.3636 39.9643 47.8795C35.7938 48.3955 31.5625 48.085 27.512 46.9657C23.4615 45.8464 19.6712 43.9403 16.3573 41.3562C13.0435 38.772 10.2711 35.5605 8.19838 31.9049C6.12569 28.2493 4.79332 24.2213 4.27734 20.0508L67.7931 12.1925Z"
           fill="black"

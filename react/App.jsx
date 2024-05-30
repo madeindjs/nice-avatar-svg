@@ -3,7 +3,7 @@ import NiceAvatar from "./NiceAvatar";
 
 export default function App() {
   return (
-    <div style="display: flex; flex-wrap;; gap: 1rem;">
+    <div style={{ display: "flex", flexWrap: "wrap", gap: "1rem" }}>
       <NiceAvatar
         bgColor={COLORS.Salmon}
         hairColor={COLORS.Lavender}
