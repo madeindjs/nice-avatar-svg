@@ -1,14 +1,16 @@
 /* @refresh reload */
-import { render } from "react";
+import { createRoot } from "react-dom/client";
 
 import App from "./App";
 
-const root = document.getElementById("root");
+const container = document.getElementById("root");
 
-if (import.meta.env.DEV && !(root instanceof HTMLElement)) {
+if (import.meta.env.DEV && !(container instanceof HTMLElement)) {
   throw new Error(
     "Root element not found. Did you forget to add it to your index.html? Or maybe the id attribute got misspelled?"
   );
 }
 
-render(<App />, root);
+const root = createRoot(container);
+
+root.render(<App />);
